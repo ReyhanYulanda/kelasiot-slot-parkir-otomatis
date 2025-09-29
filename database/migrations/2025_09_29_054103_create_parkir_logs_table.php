@@ -13,6 +13,8 @@ return new class extends Migration
     {
         Schema::create('parkir_logs', function (Blueprint $table) {
             $table->id();
+            $table->string('topic');
+            $table->string('status');
             $table->timestamps();
         });
     }
