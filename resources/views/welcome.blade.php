@@ -48,9 +48,9 @@
             </p>
 
             <div class="flex justify-center md:justify-start">
-                <button class="bg-[#3C345C] text-white text-sm sm:text-base md:text-xl px-6 py-3 rounded-md hover:bg-[#2C2545] transition">
+                <a href="{{ route('parkir.index') }}" class="bg-[#3C345C] text-white text-sm sm:text-base md:text-xl px-6 py-3 rounded-md hover:bg-[#2C2545] transition">
                     Get Started
-                </button>
+                </a>
             </div>
         </div>
 
